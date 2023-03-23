@@ -38,7 +38,7 @@ img {
     user-select: none;
  }
 
-.text {
+.text, .game-text {
     color: white;
 }
 footer {
@@ -58,7 +58,7 @@ footer {
     width: 100%;
 }
 
-.game-text_intro-highlighted {
+.game-text__intro-highlighted {
     background-color: yellow;
     padding: 2px;
     color: black
@@ -68,7 +68,7 @@ footer {
     display: flex;
     gap: 4vmin;
     position: relative; /*???*/
-    left: 50%;
+    left: 40%;
     top: 50%; /*???*/
     transform: translate(0%, -50%);
 }
