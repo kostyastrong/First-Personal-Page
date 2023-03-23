@@ -1,0 +1,74 @@
+/* @font-face {
+    font-family: kotlinFont;
+    src: url(fonts/Kotlin-font.ttf);
+}
+
+@font-face {
+    font-family: pixelGameFont;
+    src: url(fonts/pixel-game-font.ttf);
+} */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black; 
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.bio {
+    padding-left: 5px;
+}
+
+.gallery_img {
+    height: 65vmin;
+    width: 40vmin;
+    object-fit: cover;
+    object-position: 100% 50%;
+}
+
+#gallery_box{
+    overflow: hidden;
+}
+
+img {  
+    user-select: none;
+ }
+
+.text {
+    color: white;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 5vh;
+}
+
+#future {
+    /* width: 100%; */
+    text-align: center;
+}
+
+.game-text {
+    font-family: 'Press Start 2P';
+    width: 100%;
+}
+
+.game-text_intro-highlighted {
+    background-color: yellow;
+    padding: 2px;
+    color: black
+}
+
+#gallery {
+    display: flex;
+    gap: 4vmin;
+    position: relative; /*???*/
+    left: 50%;
+    top: 50%; /*???*/
+    transform: translate(0%, -50%);
+}
