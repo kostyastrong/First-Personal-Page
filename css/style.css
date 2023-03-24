@@ -32,6 +32,7 @@ body {
 
 #gallery_box{
     overflow: hidden;
+    width: 100%;
 }
 
 img {  
@@ -60,7 +61,7 @@ footer {
 
 .game-text__intro-highlighted {
     background-color: yellow;
-    padding: 2px;
+    padding: 4px 2px;
     color: black
 }
 
@@ -71,4 +72,57 @@ footer {
     left: 40%;
     top: 50%; /*???*/
     transform: translate(0%, -50%);
+}
+
+@media screen and (max-width: 700px){
+    body {
+        height: auto;
+        width: 100vw;
+        background-color: black; 
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: scroll;
+    }
+    #gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 4vmin;
+        position: relative;
+        left: 0;
+        top: 50%;
+        transform: translate(0%, 0%);
+    }
+    .gallery_img {
+        height: 65vmin;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .text, .game-text, .game-text__intro-highlighted {
+        font-size: medium;
+        line-height: 21px;
+    }
+    p {
+        margin: 5px auto 20px auto;
+    }
+    footer {
+        position: relative;
+        align-content: center;
+        width: 100%;
+        bottom: 0;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+    }
+    .gallery_img {
+        height: 95%;
+    }
+    
+    a {
+        font-style: italic;
+        text-decoration: none;
+    }
+    
 }
