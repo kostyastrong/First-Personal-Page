@@ -1,13 +1,3 @@
-/* @font-face {
-    font-family: kotlinFont;
-    src: url(fonts/Kotlin-font.ttf);
-}
-
-@font-face {
-    font-family: pixelGameFont;
-    src: url(fonts/pixel-game-font.ttf);
-} */
-
 body {
     height: 100vh;
     width: 100vw;
@@ -64,6 +54,7 @@ footer {
     padding: 4px 2px;
     color: black
 }
+
 
 #gallery {
     display: flex;
