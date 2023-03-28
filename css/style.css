@@ -74,6 +74,11 @@ footer {
     transform: translate(0%, -50%);
 }
 
+a {
+    font-style: italic;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 700px){
     body {
         height: auto;
@@ -118,11 +123,6 @@ footer {
     }
     .gallery_img {
         height: 95%;
-    }
-    
-    a {
-        font-style: italic;
-        text-decoration: none;
     }
     
 }

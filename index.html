@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,13 +21,28 @@
     </div>
     <div id="gallery_box" draggable="false">
         <div id="gallery" data-mouse-position="0" data-mouse-prev-position="0" draggable="false">
-        <img class="gallery_img" src="img/main-min.jpg" draggable="false" alt="main photo">
-        <img class="gallery_img" src="img/presa-min-bw.jpg" draggable="false" alt="photo from presentation">
-        <img class="gallery_img" src="img/light-min.jpg" draggable="false" alt="light bulb">
-        <img class="gallery_img" src="img/bigsize-min.JPG" draggable="false" alt="close-up">
-        <img class="gallery_img" src="img/pathetic-min-bw.jpg" draggable="false" alt="kid's face">
+            <picture class="gallery_img">
+                <source class="gallery_img" srcset="img/main-min.webp" draggable="false">
+                <img class="gallery_img" src="img/main-min.webp" draggable="false" alt="main photo">
+            </picture>
+            <picture>
+                <source class="gallery_img" srcset="img/presa-min-bw.webp" draggable="false">
+                <img class="gallery_img" src="img/presa-min-bw.jpg" draggable="false" alt="photo from presentation">
+            </picture>
+            <picture>
+                <source class="gallery_img" srcset="img/light-min.webp" draggable="false">            
+                <img class="gallery_img" src="img/light-min.jpg" draggable="false" alt="light bulb">
+            </picture>
+            <picture>
+                <source class="gallery_img" srcset="img/bigsize-min.webp" draggable="false">
+                <img class="gallery_img" src="img/bigsize-min.JPG" draggable="false" alt="close-up">
+            </picture>
+            <picture>
+                <source class="gallery_img" srcset="img/pathetic-min-bw.webp" draggable="false">
+                <img class="gallery_img" src="img/pathetic-min-bw.jpg" draggable="false" alt="kid's face">
+            </picture>
+        </div>
     </div>
-</div>
     
 
     <footer><div class="game-text" id="future"> Telegram me: <a href="https://t.me/kostyastrong" class="game-text__intro-highlighted">@kostyastrong</a>
