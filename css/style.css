@@ -24,7 +24,7 @@ body {
 }
 
 .gallery_img {
-    height: 65vmin;
+    height: 50vmin;
     width: 40vmin;
     object-fit: cover;
     object-position: 100% 50%;
@@ -46,7 +46,7 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
-    height: 5vh;
+    height: 10vmin;
 }
 
 #future {
@@ -100,7 +100,7 @@ a {
         transform: translate(0%, 0%);
     }
     .gallery_img {
-        height: 65vmin;
+        height: 55vh;
         width: 100%;
         object-fit: cover;
         object-position: center;
