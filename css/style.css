@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'PixelFont';
+    src: url(/fonts/PressStart2P-Regular.ttf) format('truetype');
+}
+
 body {
     height: 100vh;
     width: 100vw;
@@ -45,7 +50,8 @@ footer {
 }
 
 .game-text {
-    font-family: 'Press Start 2P';
+    font-family: 'PixelFont';
+    font-size: 16px;
     width: 100%;
 }
 
